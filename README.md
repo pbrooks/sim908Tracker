@@ -7,6 +7,9 @@ Hardware being used during development includes:
 	* Cooking-Hacks SIM908 shield
 
 ## Feature state
+
 Currently the codebase is a cut down version of the cooking hacks Arduino example which communicates with an API via SMS, this will be expanded to HTTP.
+
 Interations are currently very frequent, this is a battery drain and will be replaced with better use of sensor inputs.
+
 In the original example - the Arduino converted the coordinates into degrees. This is offloaded to the API to handle raw SIM908 output.
